@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+/*text selectors*/
+* {
+    font-family: 'Permanent Marker', sans-serif;
+    font-weight: 100;
+    user-select: none;
+}
+
+body {
+    background-image: url(Assets/background.jpg);
+    background-size: cover;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+h3 {
+    position: relative;
+    bottom: 17px;
+    left: 10px;
+    opacity: 0.7;
+    font-size: 17px;;
+}
+
+.button {
+    font-size: 18px;
+    display: inline-block;
+    position: fixed;
+    bottom: 0%;
+    padding: 20px;
+}
+
+
+.right {
+    right: 0%;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0%;
+    left: 25%;
+    right: 25%;
+    font-size: 6.5px;
+
+}
+
+/*marker code*/
+
+
+.container {
+    padding: 15px;
+}
+
+.marker {
+    border-radius: 4px;
+    height: 25px;
+    width: 220px;
+    margin: 20px auto;
+}
+
+.marker:hover {
+    animation-name: box-shadow-fade;
+    animation-duration: 0.35s;
+    animation-fill-mode: forwards;
+}
+
+.sleeve {
+    display: inline-block;
+    background: #FFFFFFbb;
+    height: 25px;
+    width: 120px;
+    border-left: 8px double #000000b3;
+
+}
+
+.cap {
+    width: 60px;
+    height: 25px;
+}
+
+.sleeve, .cap {
+    display: inline-block;
+}
+
+/*Animation Code*/
+
+@keyframes box-shadow-fade {
+    from {box-shadow: inset 5px 7px 25px 9px #ffffff00;}
+    to {box-shadow: inset 5px 7px 25px 9px #ffffff66;
+    }
+}
+
+/*joke code*/
+
+@keyframes fade-in {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
+
+.fade-in {
+    opacity: 0%;
+}
+
+.fade-in:hover {
+    animation-name: fade-in;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
