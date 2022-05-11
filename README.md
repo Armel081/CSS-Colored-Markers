@@ -5,7 +5,7 @@ A little mock-up site i created mirroring the CSS Markers site from [FreeCodeCam
 
 ### INSTRUCTIONS
 
-Click on "**Code**" at the top, download as ZIP, extract the ```CSS-Colored-Markers-main``` folder, and open the file ```Primary Colors.html``` to get started on the first page. Also, don't touch anything else from the folder, as that may cause elements on the page to break and/or not load correctly.
+Click on "**Releases**" at the right side of the repository page, download the latest version of the ``` CSS-Colored-Markers-release.zip``` file, extract the ```CSS-Colored-Markers-release``` folder, and open the file ```Primary Colors.html``` to get started on the first page. Also, don't touch anything else from the folder, as that may cause elements on the page to break and/or not load correctly.
 
 #### Attributions
 
