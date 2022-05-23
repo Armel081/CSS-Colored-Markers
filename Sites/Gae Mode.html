@@ -65,6 +65,7 @@ body {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../Assets/gaefavicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../Assets/default style.css" type="text/css">
+    <script src="../Assets/jQuery-3.6.0.slim.js"></script>
 </head>
 <body>
 <h1>CSS Colored Markers</h1>
@@ -116,3 +117,86 @@ body {
 <p class="footer">totally not a ripoff of <a href="https://freecodecamp.org">FreeCodeCamp</a> lmao<br>Made By Armel Mahmutovic ❤</p>
 </footer>
 </html>
+<script>
+/*marker audio*/
+
+$(function() {  
+    const audio = new Audio("../Assets/Media/marker.wav" );
+$('.marker').click(function(){
+    audio.play();
+	});
+});
+
+/*marker one*/
+
+$(function() {  
+$('.one').click(function(){
+    $("h1, h2, a, p").css('color','#a30000');
+    });
+});
+
+/*marker two*/
+
+$(function() {  
+$('.two').click(function(){
+    $("h1, h2, a, p").css('color','#a36a00');
+    });
+});
+
+
+/*marker three*/
+
+$(function() {  
+$('.three').click(function(){
+    $("h1, h2, a, p").css('color','#a3a300');
+    });
+});
+
+
+/*marker four*/
+
+$(function() {  
+$('.four').click(function(){
+    $("h1, h2, a, p").css('color','#00a300');
+    });
+});
+
+
+/*marker five*/
+
+$(function() {  
+$('.five').click(function(){
+    $("h1, h2, a, p").css('color','#0000a3');
+    });
+});
+
+
+/*marker six*/
+
+$(function() {  
+$('.six').click(function(){
+    $("h1, h2, a, p").css('color','#2a0080');
+    });
+});
+
+
+/*marker seven*/
+
+$(function() {  
+$('.seven').click(function(){
+    $("h1, h2, a, p").css('color','#5200a3');
+    });
+});
+
+
+/*marker eight*/
+
+$(function() {  
+$('.eight').click(function(){
+    $("h1, h2, a, p").css({'background': 'linear-gradient(90deg, #f00, #ff2b00, #f50, #ff8000, #fa0, #ffd500, #ff0, #d4ff00, #af0, #80ff00, #5f0, #2bff00, #0f0, #00ff2b, #0f5, #00ff80, #0fa, #00ffd5, #0ff, #00d4ff, #0af, #007fff, #05f, #002bff, #00f, #2a00ff, #50f, #7f00ff, #a0f, #d400ff, #f0f, #ff00d4, #f0a, #ff0080, #f05, #ff002b, #f00)', 'color': '#0000', '-webkit-background-clip': 'text', 'background-clip': 'text' })
+    });
+});
+
+
+
+</script>
