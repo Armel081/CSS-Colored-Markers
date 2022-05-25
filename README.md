@@ -11,4 +11,4 @@ Go to the <ins>[**Releases**](https://github.com/Armel081/CSS-Colored-Markers/re
 
 [FreeCodeCamp's CSS Colored Markers Course](https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-css-colors-by-building-a-set-of-colored-markers) for the original idea and the base design of the page.
 
-[Armel081 (aka me)](https://github.com/Armel081) for the code and all of the added design improvements and extra sites.
+[Armel081 (aka me)](https://github.com/Armel081) for the code and all of the added design improvements and the extra sites & features.
