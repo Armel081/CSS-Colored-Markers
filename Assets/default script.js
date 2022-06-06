@@ -2,8 +2,9 @@
 
 $(function() {  
     const audio = new Audio("../Assets/Media/marker.wav" );
-$('.marker').click(function(){
-    audio.play();
+$('.marker').click(function()
+{   const newAudio = audio.cloneNode()
+    newAudio.play();
 	});
 });
 
