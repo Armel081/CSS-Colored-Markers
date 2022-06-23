@@ -19,7 +19,7 @@ Make a feature where you can add your own custom markers
 
 Gradient Color Info:
 
-TOP GRADIENT: Subtract 28 from Brightness
+TOP GRADIENT: Subtract 28 from Brightness (if 50, enter 22)
 MIDDLE GRADIENT: Keep same as original
-BOTTOM GRADIENT: Subtract 18 from Brightness
-BOX SHADOW COLOR: Subtract 22 from Brightness
+BOTTOM GRADIENT: Subtract 18 from Brightness (if 50, enter 32)
+BOX SHADOW COLOR: Subtract 22 from Brightness (if 50, enter 28)
