@@ -15,7 +15,10 @@ two: 'twotxt',
 three: 'threetxt',
 four: 'fourtxt',
 five: 'fivetxt',
-six: 'sixtxt'
+six: 'sixtxt',
+seven: 'seventxt',
+eight: 'eighttxt',
+nine: 'ninetxt'
 }
 const allclasses = Object.values(classmap);
 
@@ -86,4 +89,33 @@ $(function() {
     });
 });
 
+/*marker seven*/
+
+
+$(function() {  
+    $('.seven').click(function(){
+    clearSelection();
+    addSelection('seven')
+    });
+});
+
+/*marker eight*/
+
+
+$(function() {  
+    $('.eight').click(function(){
+    clearSelection();
+    addSelection('eight')
+    });
+});
+
+/*marker nine*/
+
+
+$(function() {  
+    $('.nine').click(function(){
+    clearSelection();
+    addSelection('nine')
+    });
+});
 
