@@ -18,7 +18,8 @@ five: 'fivetxt',
 six: 'sixtxt',
 seven: 'seventxt',
 eight: 'eighttxt',
-nine: 'ninetxt'
+nine: 'ninetxt',
+ten: 'tentxt'
 }
 const allclasses = Object.values(classmap);
 
@@ -116,6 +117,16 @@ $(function() {
     $('.nine').click(function(){
     clearSelection();
     addSelection('nine')
+    });
+});
+
+/*marker ten*/
+
+
+$(function() {  
+    $('.ten').click(function(){
+    clearSelection();
+    addSelection('ten')
     });
 });
 
